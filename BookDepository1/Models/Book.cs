@@ -11,7 +11,7 @@ public class Book : IBook
     public string Annotation { get; }
     public string ISBN { get; }
 
-    protected Book(string title, string author, string[] genres, int publicationYear, string annotation, string isbn)
+    public Book(string title, string author, string[] genres, int publicationYear, string annotation, string isbn)
     {
         Title = title;
         Author = author;

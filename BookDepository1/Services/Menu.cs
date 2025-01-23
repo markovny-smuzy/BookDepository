@@ -156,7 +156,7 @@ public class Menu : IMenu
             }
         }
 
-        private async Task FindByAuthorAsync()
+        public async Task FindByAuthorAsync()
         {
             if (!IsRunningTests())
             {
@@ -187,7 +187,7 @@ public class Menu : IMenu
             }
         }
 
-        private async Task FindByISBNAsync()
+        public async Task FindByISBNAsync()
         {
             if (!IsRunningTests())
             {
@@ -216,7 +216,7 @@ public class Menu : IMenu
             }
         }
 
-        private async Task FindByKeywordsAsync()
+        public async Task FindByKeywordsAsync()
         {
             if (!IsRunningTests())
             {
